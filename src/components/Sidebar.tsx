@@ -19,7 +19,7 @@ const Sidebar = () => {
     setMinPrice,
     maxPrice,
     setMaxPrice,
-    keyword,
+    // keyword,
     setKeyword,
   } = useFilter();
 
@@ -43,7 +43,6 @@ const Sidebar = () => {
         );
 
         setCategories(uniqueCategories);
-        console.log(categories);
       } catch (err) {
         console.error("Error fetching product", err);
       }
