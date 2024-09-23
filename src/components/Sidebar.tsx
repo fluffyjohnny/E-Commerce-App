@@ -28,9 +28,9 @@ const Sidebar = () => {
     "apple",
     "watch",
     "Fashion",
-    "pets",
-    "cleaning",
-    "clothes",
+    "trend",
+    "shoes",
+    "shirt",
   ]);
 
   useEffect(() => {
